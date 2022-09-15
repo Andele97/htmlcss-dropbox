@@ -28,7 +28,7 @@ body {
   width: 1184px;
   height: 635px;
   position: relative;
-  background-color: violet;
+
 }
 
 .d.flex {
@@ -144,7 +144,6 @@ main .jumbotron .container-top h1 {
   font-size: 4.5em;
   padding-right: 180px;
   padding-bottom: 55px;
-  border: 1px solid black;
 }
 
 main .jumbotron .container-top p {
@@ -152,7 +151,6 @@ main .jumbotron .container-top p {
   height: 136px;
   font-size: 1.1em;
   margin-bottom: 35px;
-  background-color: blue;
 }
 
 main .jumbotron .container-top .button {
@@ -170,10 +168,9 @@ main .jumbotron .container-top .content {
   font-size: 50px;
 }
 
-main .jumbotron .container-top .image-jumbo {
+main .jumbotron .container-top .image-jumbo img {
   width: 780px;
   height: 465px;
-  background-color: yellow;
   position: absolute;
   right: 10px;
   bottom: -79px;
