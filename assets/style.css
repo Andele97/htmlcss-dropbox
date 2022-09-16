@@ -356,3 +356,37 @@ main .container .contact .text-contact .button-contact {
   padding: 10px;
   margin-right: 160px;
 }
+
+/* Feature */
+main .container .feature {
+  margin-top: 165px;
+  height: 1110px;
+  background-color: rosybrown;
+}
+
+main .container .feature h2 {
+  padding-bottom: 70px;
+}
+
+main .container .feature .contain-cards {
+  width: calc(100 / 3);
+  height: 100%;
+  background-color: red;
+}
+
+main .container .feature .card {
+  height: 465px;
+  width: 300px;
+  background-color: #0058FF;
+  border: 1px solid;
+}
+
+main .container .feature .card img {
+  height: 50%;
+  width: 100%;
+  background-color: yellow;
+}
+
+main .container .feature .card h4 {
+  
+}
