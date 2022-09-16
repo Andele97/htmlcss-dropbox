@@ -20,6 +20,7 @@ body {
   padding: 10px;
   background-color: #0061FF;
   border: 1px solid #0058FF;
+  color: white;
   cursor: pointer;
   text-align: center;
 }
@@ -163,7 +164,6 @@ main .jumbotron .container-top p {
 main .jumbotron .container-top .button {
   width: 225px;
   margin-bottom: 35px;
-  color: white;
 }
 
 main .jumbotron .container-top .last-text {
@@ -193,18 +193,78 @@ main .container label {
   margin-right: 50px;
 }
 
-main .container .container-column {
+/* Columns */
+main .container .container-columns {
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
-
   background-color: yellow;
 }
 
 main .container .column {
   width: 300px;
   height: 950px;
-  padding-top: 56px;
   background-color: gray;
   border: 1px solid black;
+}
+
+/* TOP COLUMN */
+main .container .column .Ctop {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+/* HEADER COLUMN */
+main .container .column .Hcolumn {
+  background-color: yellow;
+  padding: 25px 24px;
+}
+
+main .container .column .Hcolumn h3 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+main .container .column .Hcolumn span strong {
+  display: block;
+  padding-bottom: 5px;
+}
+
+main .container .column .Hcolumn .for {
+  color: grey;
+}
+
+main .container .column .description-top {
+  padding: 20px 24px;
+  background-color: red;
+}
+
+main .container .column .description-top li {
+  padding-bottom: 15px;
+}
+
+/* MAIN COLUMN */
+main .container .column .Mcolumn {
+  height: 200px;
+  padding: 20px;
+  background-color: rebeccapurple;
+}
+
+main .container .column .Mcolumn .button {
+  margin-bottom: 30px;
+}
+
+main .container .column .Mcolumn hr {
+  margin-top: 30px;
+  width: 20%;
+}
+
+/* Description down */
+main .container .column .description-down {
+  padding-left: 20px;
+  height: 150px;
+  background-color: red;
 }
