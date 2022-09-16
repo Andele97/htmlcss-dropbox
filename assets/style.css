@@ -28,7 +28,14 @@ body {
   width: 1184px;
   height: 635px;
   position: relative;
+}
 
+.container {
+  width: 997px;
+  height: 1000px;
+  background-color: rosybrown;
+  margin: 0 auto;
+  margin-top: 161px;
 }
 
 .d.flex {
@@ -92,8 +99,7 @@ header .header-left .info ul li:hover a {
 /* HEADER RIGHT */
 header .header-right {
   display: flex;
-  
-}
+  }
 
 header .header-right .help {
   padding-top: 11px;
@@ -129,6 +135,7 @@ header .header-right .button a {
 
 /* /HEADER */
 
+/* MAIN */
 /* JUMBOTRON */
 main .jumbotron {
   width: 100%;
@@ -175,6 +182,13 @@ main .jumbotron .container-top .image-jumbo img {
   right: 10px;
   bottom: -79px;
 }
+/* /JUMBOTRON */
 
-/* MAIN */
+main .container h2 {
+  font-size: 2.5em;
+  padding-bottom: 63px;
+}
 
+main .container label {
+  
+}
