@@ -197,7 +197,6 @@ main .container .container-columns {
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
-  
 }
 
 main .container .column {
@@ -286,6 +285,7 @@ main .container .column-horizontal {
   height: 255px;
   margin-top: 50px;
   width: 100%;
+  border: 1px solid #D3D3D5;
 }
 
 main .container .column-horizontal .CtopH {
@@ -314,4 +314,45 @@ main .container .column-horizontal span strong {
 main .container .column-horizontal p {
   padding: 55px 0px 0px 20px;
   margin-right: 270px;
+}
+
+/* Contact */
+
+main .container .contact {
+  margin-top: 148px;
+  height: 512px;
+  display: flex;
+  gap: 50px;
+}
+
+main .container .contact .image {
+  height: 100%;
+  width: 600px;
+}
+
+main .container .contact .image img {
+  width: 100%;
+}
+
+main .container .contact .text-contact {
+  height: 205px;
+  width: 302px;
+  margin-top: 58px;
+}
+
+main .container .contact .text-contact h3 {
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+main .container .contact .text-contact p {
+  font-size: 1.06em;
+  padding-bottom: 32px;
+}
+
+main .container .contact .text-contact .button-contact {
+  border: 1px solid;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 160px;
 }
