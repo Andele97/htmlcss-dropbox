@@ -34,7 +34,6 @@ body {
 .container {
   width: 997px;
   height: 1000px;
-  background-color: rosybrown;
   margin: 0 auto;
   margin-top: 161px;
 }
@@ -198,14 +197,13 @@ main .container .container-columns {
   display: flex;
   justify-content: space-between;
   margin-top: 56px;
-  background-color: yellow;
+  
 }
 
 main .container .column {
   width: 300px;
   height: 950px;
-  background-color: gray;
-  border: 1px solid black;
+  border: 1px solid #D3D3D5;
 }
 
 /* TOP COLUMN */
@@ -214,12 +212,11 @@ main .container .column .Ctop {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid #D3D3D5;
 }
 
 /* HEADER COLUMN */
 main .container .column .Hcolumn {
-  background-color: yellow;
   padding: 25px 24px;
 }
 
@@ -238,8 +235,7 @@ main .container .column .Hcolumn .for {
 }
 
 main .container .column .description-top {
-  padding: 20px 24px;
-  background-color: red;
+  padding: 20px 24px 30px 40px;
 }
 
 main .container .column .description-top li {
@@ -250,7 +246,6 @@ main .container .column .description-top li {
 main .container .column .Mcolumn {
   height: 200px;
   padding: 20px;
-  background-color: rebeccapurple;
 }
 
 main .container .column .Mcolumn .button {
@@ -264,7 +259,59 @@ main .container .column .Mcolumn hr {
 
 /* Description down */
 main .container .column .description-down {
+  padding-right: 10px;
+}
+
+main .container .column .description-down h4 {
+  padding: 5px 20px 10px 20px;
+}
+
+main .container .column .description-down ul {
+  padding-left: 40px;
+  list-style: ;
+}
+
+main .container .column .description-down li {
+  padding: 10px 10px 3px 0px;
+
+}
+
+main .container .column .description-down li::before {
+  content: '';
+  font-family: FontAwesome;
+}
+
+/* Column Horizontal */
+main .container .column-horizontal {
+  height: 255px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+main .container .column-horizontal .CtopH {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D3D3D5;
+}
+
+main .container .column-horizontal .Htop {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .column-horizontal .Htop h3 {
+  font-size: 1.5em;
+}
+
+main .container .column-horizontal span strong {
+  align-self: flex-end;
   padding-left: 20px;
-  height: 150px;
-  background-color: red;
+}
+
+main .container .column-horizontal p {
+  padding: 55px 0px 0px 20px;
+  margin-right: 270px;
 }
