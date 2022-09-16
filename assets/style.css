@@ -360,7 +360,6 @@ main .container .contact .text-contact .button-contact {
 /* Feature */
 main .container .feature {
   margin-top: 165px;
-  height: 1110px;
   background-color: rosybrown;
 }
 
@@ -368,13 +367,17 @@ main .container .feature h2 {
   padding-bottom: 70px;
 }
 
-main .container .feature .contain-cards {
-  width: calc(100 / 3);
+main .container .contain-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   height: 100%;
   background-color: red;
+  row-gap: 65px;
 }
 
 main .container .feature .card {
+  width: calc(100% / 3);
   height: 465px;
   width: 300px;
   background-color: #0058FF;
