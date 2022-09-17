@@ -389,9 +389,7 @@ main .container .customers {
 /* Company */
 main .company {
   margin-top: 150px;
-  height: 640px;
   width: 100%;
-  background-color: rosybrown;
   display: flex;
   justify-content: space-between;
 }
@@ -400,7 +398,20 @@ main .company {
 main .company .containerL {
   display: flex;
   flex-wrap: wrap;
-  width: 640px;
+  width: 100%;
+  max-width: 640px;
+  background-color: blue;
+}
+
+main .company .containerL .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .company .containerL .square img {
+  width: 150px;
+  filter: invert(1);
 }
 
 main .company .containerL .square:nth-child(1) {
@@ -428,10 +439,49 @@ main .company .containerL .square:nth-child(4) {
   height: 320px;
 }
 
+/* Contenitore centrale */
+main .company .containerC {
+  width: 540px;
+  height: 50%;
+  margin-top: 50px;
+}
+
+main .company .containerC img {
+  width: 250px;
+  padding-bottom: 45px;
+}
+
+main .company .containerC hr {
+  width: 110px;
+  margin-bottom: 45px;
+}
+
+main .company .containerC p {
+  font-size: 1.1em;
+  margin-bottom: 50px
+}
+
+main .company .containerC span {
+  font-size: 1.1em;
+}
+
+/* Contenitore di destra */
 main .company .containerR {
   display: flex;
   flex-wrap: wrap;
   width: 640px;
+  background: blue;
+}
+
+main .company .containerR .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .company .containerR .square img {
+  width: 150px;
+  filter: invert(1);
 }
 
 main .company .containerR .square:nth-child(1) {
@@ -458,6 +508,30 @@ main .company .containerR .square:nth-child(4) {
   background-color: #FFD830;
 }
 
-.containerL:only-of-type {
-  color: white;
+main .business {
+  height: 360px;
+  width: 100%;
+  background-color: #B4D0E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .business .container {
+  margin: auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .business .container .text {
+  width: 480px;
+  border: 1px solid;
+  color: #61082B;
+  display: flex;
+}
+
+main .business .container .button {
+  height: 50px;
+  background-color: white;
 }
