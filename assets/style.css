@@ -508,6 +508,7 @@ main .company .containerR .square:nth-child(4) {
   background-color: #FFD830;
 }
 
+/* Business */
 main .business {
   height: 360px;
   width: 100%;
@@ -533,5 +534,44 @@ main .business .container .text {
 
 main .business .container .button {
   height: 50px;
+  border: 1px solid black;
   background-color: white;
+  color: black;
+}
+
+/* Business tendine */
+main .tendine {
+  background-color: rosybrown;
+  display: flex;
+}
+
+main .tendine .container {
+  background-color: red;
+}
+
+main .tendine .container h2 {
+  padding-bottom: 65px;
+}
+
+main .tendine .container hr {
+  background-color: black;
+  margin-bottom: 35px;
+}
+
+main .tendine .container .hiddentext {
+  display: none;
+}
+
+main .tendine .container .hiddentext:hover p {
+}
+
+main .tendine .container h3 {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .tendine .container h3 i {
+  padding-right: 50px;
+  cursor: pointer;
 }
