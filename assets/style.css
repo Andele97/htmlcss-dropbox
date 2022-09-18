@@ -21,7 +21,6 @@ body {
 
 .containerHF {
   width: 1184px;
-  height: 635px;
   position: relative;
 }
 
@@ -514,14 +513,12 @@ main .business {
 
 main .business .container {
   margin: auto;
-  border: 1px solid;
   display: flex;
   justify-content: space-between;
 }
 
 main .business .container .text {
   width: 480px;
-  border: 1px solid;
   color: #61082B;
   display: flex;
 }
@@ -574,39 +571,49 @@ main .tendine .container h3 i {
 footer {
   height: 570px;
   background-color: #000000;
-}
-
-footer .containerHF {
   display: flex;
-  padding-top: 100px;
+  justify-content: center;
+}
+
+footer .containerHF .footertop {
+  display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-footer .containerHF .options {
-  color: white;
-  border: 1px solid white;
-}
-
-footer .containerHF .options ul {
+footer .containerHF .footertop .options ul {
   list-style: none;
+  color: white;
 }
 
-footer .containerHF .options ul li h3 {
-  font-size: 1.5em;
-  padding-bottom: 30px;
-}
-
-footer .containerHF .options ul li {
+footer .containerHF .footertop .options ul li {
   padding-bottom: 15px;
 }
 
-footer .containerHF .options ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.1em;
+footer .containerHF .footertop .options ul li h3 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
 }
 
-footer .containerHF .options ul li a:hover {
+footer .containerHF .footertop .options ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .containerHF .footertop .options ul li a:hover {
   text-decoration: underline;
+}
+
+footer .containerHF hr {
+  width: 120px;
+  margin-bottom: 50px;
+}
+
+footer .containerHF .language span {
+  color: white
+}
+
+footer .containerHF .language span i {
+  padding-right: 5px;
 }
