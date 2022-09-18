@@ -222,8 +222,49 @@ main .container .column .description-top {
   padding: 20px 24px 30px 40px;
 }
 
+main .container .column .description-top ul {
+  list-style: none;
+}
+
 main .container .column .description-top li {
   padding-bottom: 15px;
+}
+
+main .container .column .description-top .user::before {
+  content: "\f007";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1em;
+  padding-right: 5px;
+}
+
+main .container .column .description-top .users::before {
+  content: "\f0c0";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  padding-right: 5px;
+}
+
+main .container .column .description-top .folder::before {
+  content: "\f07b";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  padding-right: 6px;
+  font-size: 13px;
+}
+
+main .container .column .description-top .nodes::before {
+  content: "\f1e0";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.1em;
+  padding-right: 6px;
+}
+
+main .container .column .description-top li i {
+  padding-right: 5px;
 }
 
 /* MAIN COLUMN */
@@ -252,7 +293,7 @@ main .container .column .description-down h4 {
 
 main .container .column .description-down ul {
   padding-left: 40px;
-  list-style: ;
+  list-style: none;
 }
 
 main .container .column .description-down li {
@@ -260,8 +301,12 @@ main .container .column .description-down li {
 }
 
 main .container .column .description-down li::before {
-  content: '';
+  content: "\f00c";
   font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.4em;
+  padding-right: 6px;
+  color: #0061FF;
 }
 
 /* Column Horizontal */
