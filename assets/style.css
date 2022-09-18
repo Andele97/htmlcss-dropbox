@@ -418,7 +418,6 @@ main .container .feature .card p {
 }
 
 /* Customers */
-
 main .container .customers {
   margin-top: 204px;
   padding-right: 260px;
@@ -431,7 +430,6 @@ main .company {
   display: flex;
   justify-content: space-between;
 }
-
 
 main .company .containerL {
   display: flex;
