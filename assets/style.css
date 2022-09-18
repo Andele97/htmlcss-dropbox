@@ -10,12 +10,6 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .button {
   padding: 10px;
   background-color: #0061FF;
@@ -25,7 +19,7 @@ body {
   text-align: center;
 }
 
-.container-top {
+.containerHF {
   width: 1184px;
   height: 635px;
   position: relative;
@@ -139,34 +133,34 @@ main .jumbotron {
   align-items: flex-start;
 }
 
-main .jumbotron .container-top h1 {
+main .jumbotron .containerHF h1 {
   font-size: 4.5em;
   padding-right: 180px;
   padding-bottom: 55px;
 }
 
-main .jumbotron .container-top p {
+main .jumbotron .containerHF p {
   width: 360px;
   height: 136px;
   font-size: 1.1em;
   margin-bottom: 35px;
 }
 
-main .jumbotron .container-top .button {
+main .jumbotron .containerHF .button {
   width: 225px;
   margin-bottom: 35px;
 }
 
-main .jumbotron .container-top .last-text {
+main .jumbotron .containerHF .last-text {
   font-size: 1.1em;
   margin-bottom: 40px;
 }
 
-main .jumbotron .container-top .content {
+main .jumbotron .containerHF .content {
   font-size: 50px;
 }
 
-main .jumbotron .container-top .image-jumbo img {
+main .jumbotron .containerHF .image-jumbo img {
   width: 780px;
   height: 465px;
   position: absolute;
@@ -541,12 +535,11 @@ main .business .container .button {
 
 /* Business tendine */
 main .tendine {
-  background-color: rosybrown;
   display: flex;
 }
 
 main .tendine .container {
-  background-color: red;
+  margin-bottom: 150px;
 }
 
 main .tendine .container h2 {
@@ -574,4 +567,46 @@ main .tendine .container h3 {
 main .tendine .container h3 i {
   padding-right: 50px;
   cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  height: 570px;
+  background-color: #000000;
+}
+
+footer .containerHF {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+footer .containerHF .options {
+  color: white;
+  border: 1px solid white;
+}
+
+footer .containerHF .options ul {
+  list-style: none;
+}
+
+footer .containerHF .options ul li h3 {
+  font-size: 1.5em;
+  padding-bottom: 30px;
+}
+
+footer .containerHF .options ul li {
+  padding-bottom: 15px;
+}
+
+footer .containerHF .options ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+footer .containerHF .options ul li a:hover {
+  text-decoration: underline;
 }
