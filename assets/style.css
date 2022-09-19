@@ -431,6 +431,10 @@ main .company {
   justify-content: space-between;
 }
 
+.active:active{
+  border: 15px solid rgba(0, 0, 0, .4);
+}
+
 main .company .containerL {
   display: flex;
   flex-wrap: wrap;
@@ -452,7 +456,6 @@ main .company .containerL .square img {
 
 main .company .containerL .square:nth-child(1) {
   background-color: #A2D39B;
-  border: 14px solid #D1E9CD;
   width: 320px;
   height: 320px;
 }
@@ -587,15 +590,18 @@ main .tendine .container h2 {
 }
 
 main .tendine .container hr {
-  background-color: black;
   margin-bottom: 35px;
 }
 
 main .tendine .container .hiddentext {
+  padding-right: 100px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
   display: none;
 }
 
-main .tendine .container .hiddentext:hover p {
+main .tendine .container h3:hover + .hiddentext {
+  display: block;
 }
 
 main .tendine .container h3 {
