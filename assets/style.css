@@ -166,6 +166,7 @@ main .jumbotron .containerHF .image-jumbo img {
   right: 10px;
   bottom: -79px;
 }
+
 /* /JUMBOTRON */
 
 main .container h2 {
@@ -190,13 +191,16 @@ main .container .column {
   border: 1px solid #D3D3D5;
 }
 
+main .container .container-columns .column hr {
+  color: #D3D3D5;
+}
+
 /* TOP COLUMN */
 main .container .column .Ctop {
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #D3D3D5;
 }
 
 /* HEADER COLUMN */
@@ -322,7 +326,7 @@ main .container .column-horizontal .CtopH {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #D3D3D5;
+  
 }
 
 main .container .column-horizontal .Htop {
