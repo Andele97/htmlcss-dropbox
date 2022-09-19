@@ -440,42 +440,35 @@ main .company .containerL {
   flex-wrap: wrap;
   width: 100%;
   max-width: 640px;
-  background-color: blue;
 }
 
 main .company .containerL .square {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 320px;
+  width: 50%
 }
 
 main .company .containerL .square img {
-  width: 150px;
+  width: 50%;
   filter: invert(1);
 }
 
 main .company .containerL .square:nth-child(1) {
   background-color: #A2D39B;
-  width: 320px;
-  height: 320px;
 }
 
 main .company .containerL .square:nth-child(2) {
   background-color: #61082B;
-  width: 320px;
-  height: 320px;
 }
 
 main .company .containerL .square:nth-child(3) {
   background-color: #0093CE;
-  width: 320px;
-  height: 320px;
 }
 
 main .company .containerL .square:nth-child(4) {
   background-color: #FF1C1C;
-  width: 320px;
-  height: 320px;
 }
 
 /* Contenitore centrale */
@@ -483,10 +476,11 @@ main .company .containerC {
   width: 540px;
   height: 50%;
   margin-top: 50px;
+  padding: 10px;
 }
 
 main .company .containerC img {
-  width: 250px;
+  width: 50%;
   padding-bottom: 45px;
 }
 
@@ -509,41 +503,34 @@ main .company .containerR {
   display: flex;
   flex-wrap: wrap;
   width: 640px;
-  background: blue;
 }
 
 main .company .containerR .square {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 320px;
+  width: 50%
 }
 
 main .company .containerR .square img {
-  width: 150px;
+  width: 50%;
   filter: invert(1);
 }
 
 main .company .containerR .square:nth-child(1) {
-  width: 320px;
-  height: 320px;
   background-color: #D5001F;
 }
 
 main .company .containerR .square:nth-child(2) {
-  width: 320px;
-  height: 320px;
   background-color: #B4D0E7;
 }
 
 main .company .containerR .square:nth-child(3) {
-  width: 320px;
-  height: 320px;
   background-color: #0D2481;
 }
 
 main .company .containerR .square:nth-child(4) {
-  width: 320px;
-  height: 320px;
   background-color: #FFD830;
 }
 
