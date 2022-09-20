@@ -201,6 +201,7 @@ main .container .column .Ctop {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #D3D3D5;
 }
 
 /* HEADER COLUMN */
@@ -326,7 +327,7 @@ main .container .column-horizontal .CtopH {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  border-bottom: 1px solid #D3D3D5;
 }
 
 main .container .column-horizontal .Htop {
@@ -451,7 +452,8 @@ main .company .containerL .square {
   justify-content: center;
   align-items: center;
   height: 320px;
-  width: 50%
+  width: 50%;
+  aspect-ratio: 1/1;
 }
 
 main .company .containerL .square img {
@@ -514,7 +516,8 @@ main .company .containerR .square {
   justify-content: center;
   align-items: center;
   height: 320px;
-  width: 50%
+  width: 50%;
+  aspect-ratio: 1/1;
 }
 
 main .company .containerR .square img {
